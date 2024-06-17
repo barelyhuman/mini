@@ -2,5 +2,8 @@
   "name": "@barelyhuman/mini",
   "version": "0.0.1",
   "exports": "./mod.ts",
-  "tasks": {}
+  "tasks": {
+    "bump": "deno run --allow-read --allow-write ./bump.ts"
+  },
+  "imports": { "@std/cli": "jsr:@std/cli@^0.224.7" }
 }
