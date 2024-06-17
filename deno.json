@@ -1,6 +1,9 @@
 {
   "name": "@barelyhuman/mini",
-  "version": "0.0.1",
+  "version": "2.0.0",
   "exports": "./mod.ts",
-  "tasks": {}
+  "tasks": {},
+  "imports": {
+    "@std/cli": "jsr:@std/cli@^0.224.7"
+  }
 }
