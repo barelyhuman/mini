@@ -1,0 +1,21 @@
+{
+  "name": "@dumbjs/mini",
+  "main": "./src/index.js",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./curry": {
+      "types": "./src/curry.d.ts",
+      "import": "./src/curry.js"
+    }
+  },
+  "scripts": {
+    "publint": "publint",
+    "test:types": "tsc"
+  },
+  "devDependencies": {
+    "publint": "^0.2.8",
+    "typescript": "^5.4.5"
+  }
+}
