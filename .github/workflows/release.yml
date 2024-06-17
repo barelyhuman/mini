@@ -1,5 +1,4 @@
-name: release
-
+name: Publish
 on:
   push:
     tags-ignore:
@@ -8,14 +7,13 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
+
     permissions:
       contents: read
       id-token: write
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: denoland/setup-deno@v1
-        with:
-          deno-version: v1.x
-      - name: Publish JSR
-        run: |
-          deno publish
+      - uses: actions/checkout@v4
+
+      - name: Publish package
+        run: npx jsr publish
