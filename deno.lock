@@ -2,49 +2,18 @@
   "version": "4",
   "specifiers": {
     "jsr:@std/cli@~0.224.7": "0.224.7",
-    "npm:bluebird@*": "3.7.2",
-    "npm:p-map@*": "7.0.2",
-    "npm:semver@*": "7.6.2"
+    "npm:semver@*": "7.6.3"
   },
   "jsr": {
     "@std/cli@0.224.7": {
       "integrity": "654ca6477518e5e3a0d3fabafb2789e92b8c0febf1a1d24ba4b567aba94b5977"
-<<<<<<< HEAD
     }
   },
   "npm": {
-    "bluebird@3.7.2": {
-      "integrity": "sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg=="
-    },
-    "p-map@7.0.2": {
-      "integrity": "sha512-z4cYYMMdKHzw4O5UkWJImbZynVIo0lSGTXc7bzB1e/rrDqkgGUNysK/o4bTr+0+xKvvLoTyGqYC4Fgljy9qe1Q=="
-    },
-    "semver@7.6.2": {
-      "integrity": "sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w=="
+    "semver@7.6.3": {
+      "integrity": "sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A=="
     }
   },
-=======
-    }
-  },
-  "npm": {
-    "bluebird@3.7.2": {
-      "integrity": "sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg=="
-    },
-    "p-map@7.0.2": {
-      "integrity": "sha512-z4cYYMMdKHzw4O5UkWJImbZynVIo0lSGTXc7bzB1e/rrDqkgGUNysK/o4bTr+0+xKvvLoTyGqYC4Fgljy9qe1Q=="
-    },
-    "semver@7.6.2": {
-      "integrity": "sha512-FNAIBWCx9qcRhoHcgcJ0gvU7SN1lYU2ZXuSfl04bSC5OpvDHFyJCjdNHomPXxjQlCBU67YW64PzY7/VIEH7F2w=="
-    }
-  },
-  "redirects": {
-    "https://deno.land/x/promise_fns/src/queue.ts": "https://deno.land/x/promise_fns@v1.5.1/src/queue.ts"
-  },
-  "remote": {
-    "https://deno.land/x/promise_fns@v1.5.1/src/queue.ts": "2030d0fe5125baa6e2d38fad0dc437c6b2949c5742bc7e488dfc33f418b271b8",
-    "https://deno.land/x/promise_fns@v1.5.1/src/util/iter.ts": "273020d6f6cebb5d89093ad4f87e405d766775c3db0ea3fbb931522a82e25e42"
-  },
->>>>>>> 5006b58 (feat: add promise map)
   "workspace": {
     "dependencies": [
       "jsr:@std/cli@~0.224.7"

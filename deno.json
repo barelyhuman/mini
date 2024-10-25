@@ -1,6 +1,6 @@
 {
   "name": "@barelyhuman/mini",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "exports": "./mod.ts",
   "tasks": {
     "bump": "deno run --allow-read --allow-write --allow-run ./bump.ts"
