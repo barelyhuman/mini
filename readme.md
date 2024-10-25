@@ -1,6 +1,6 @@
 # @barelyhuman/mini
 
-Deno fp utils
+Deno daily utils
 
 ## Documentation
 
